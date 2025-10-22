@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
        
 a{
     text-decoration: none;
+}
+header{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+font-family: "Bebas Neue", sans-serif;
+}
+.ContainerMain a{
+    color: black;
+}
+.navbar-brand{
+    font-family:"Playwrite DE SAS", cursive;
+}
+.card{
+    size: fit-content;
+    object-fit: cover;
+
 }

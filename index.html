@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lar dos Livros</title>
+    <link rel="shortcut icon" href="favicon/icons8-livros-emoji-16.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
 </style>
 </head>
 <body>
+<header>
     <nav class="navbar bg-body-tertiary" style="background-image: url(img/fundo\ nav.jpg); background-size: cover ; height: 90px;">
   <div class= container-fluid>
     <a class="navbar-brand" style="color: white;">Lar dos Livros</a>
@@ -20,32 +23,94 @@
   </div>
 </nav>
 
-<div class="ContainerMain d-flex justify-content-around " style="text-decoration-color: black; background-color: #EEDECC;">
-        <a href="">Home</a>
+<div class="ContainerMain d-flex justify-content-around " style="background-color: #EEDECC;">
+        <a href="#Home">Home</a>
         <a href="">Sobre</a>
         <a href="">Contato</a>
         <a href="">Notícias</a>
-        <a href="">Livros</a>
+        <a href="#BoxBooks">Livros</a>
         <a href="">Hqs</a>
         <a href="">Mangá</a>
         <a href="">Light Novel</a>
     
-
 </div>
-
-<div style="margin-top: 60px;">
-    <h4>Livros</h4>
-    <div>
-        <div class="card" style="width: 18rem;">
-  <img src="img/livro1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+</header>
+  <div class="Carousel" id="Home">
+<div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 165px;">
+  <h4>Lançamentos:</h4>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Carrosel1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/Carrosel2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/Carrosel3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+<div class="ContainerBooks" style="background-color:whitesmoke; margin-top: 100px;">
+<div class="Books" id="BoxBooks">
+  <h4 style="margin-top: 30px;">Livros:</h4>
+  <div class="row row-cols-md-2 row-cols-lg-4 g-4 justify-content-center" style="margin-top: 50px;">
+    
+    
+    <div class="col">
+      <div class="card" style="width: 120px;">
+        <img src="img/livro1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tempestade de Ônix</h5>
+          <a href="#" class="btn btn-primary" style="width: 100px;">Comprar</a>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div class="col">
+      <div class="card" style="width: 120px;" style="">
+        <img src="img/livro1.jpg" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title">Tempestade de Ônix</h5>
+          <a href="#" class="btn btn-primary" style="width: 100px;">Comprar</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col">
+      <div class="card h-100" style="width: 120px;">
+        <img src="img/livro1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tempestade de</h5>
+          <a href="#" class="btn btn-primary" style="width: 100px;">Comprar</a>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </div>
-    </div>
-</div>
+
+    
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
