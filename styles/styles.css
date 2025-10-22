@@ -15,8 +15,3 @@ font-family: "Bebas Neue", sans-serif;
 .navbar-brand{
     font-family:"Playwrite DE SAS", cursive;
 }
-.card{
-    size: fit-content;
-    object-fit: cover;
-
-}
