@@ -15,3 +15,54 @@ font-family: "Bebas Neue", sans-serif;
 .navbar-brand{
     font-family:"Playwrite DE SAS", cursive;
 }
+.sectionSobre {
+    padding: 40px;
+    background-color: gray;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.sectionContato {
+    padding: 40px;
+    background-color: #e8f5e9;
+}
+
+.sectionContato form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.sectionContato input,
+.sectionContato select,
+.sectionContato textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.sectionContato button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sectionContato button:hover {
+    background-color: darkgreen;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
